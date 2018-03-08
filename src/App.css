@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-home {
+  text-align: left;
+  height: 50px;
+  width: 50px;
+}
+
+.App-countdown {
+  height: 50px;
+  width: 50px;
+  text-align: right;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 100px;
+  width: 100px;
+}
+
+.App-header {
+  background: radial-gradient(circle, red, black);
+  height: 150px;
+  padding: 70px;
+  color: white;
+}
+
+.App-title {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Verdana";
+}
+
+.App-intro {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.App-outro {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.App-body {
+	font-color: #222;
+	text-align: center;
+}
+
+.App-muslces {
+	text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(0deg); }
+}
+
+.Nav-link {
+	background: transparent;
+	border: none;
+}
