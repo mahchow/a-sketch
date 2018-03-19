@@ -1,0 +1,20 @@
+{
+  "name": "a-sketch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mahchow/a-sketch.git",
+  "author": "Abrar Mahmud Chowdhury <mahchowabrar@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "esops dev web"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-native-web": "^0.5.3"
+  },
+  "devDependencies": {
+    "esops": "^1.12.6"
+  }
+}
