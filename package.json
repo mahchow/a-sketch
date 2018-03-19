@@ -15,6 +15,7 @@
     "react-native-web": "^0.5.3"
   },
   "devDependencies": {
-    "esops": "^1.12.6"
+    "@esops/target-react-native-web": "^1.13.2",
+    "esops": "^1.13.2"
   }
 }

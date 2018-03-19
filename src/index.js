@@ -22,11 +22,16 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 	},
 	title: {
-		fontSize: 50
+		fontSize: 50,
+		fontFamily: 'Mina'
+	},
+	body: {
+		fontSize: 37,
+		fontFamily: 'Montserrat'
 	},
 	icon: {
-		height: '10vh',
-		width: '10vw',
+		height: '5vh',
+		width: '5vw',
 		resizeMode: 'cover'
 	},
 	menu: {
@@ -42,14 +47,14 @@ const styles = StyleSheet.create({
 const Silhouette = ({onClick}) => ( 
 	<View style={styles.container}> 
 		<Text style={styles.title}>Abrar Mahmud Chowdhury</Text>
-		<Text> Operations & Design </Text>
+		<Text> DevOps </Text>
 	</View>
 )
 const Menu = () => (
 	<View style = {styles.menu}>
-		<Image source={profile} style={styles.icon}/>
-		<Image source={background} style={styles.icon}/>
-		<Image source={home} style={styles.icon}/>
+		<Image source={profile} style={styles.icon} draggable={false} />
+		<Image source={background} style={styles.icon} draggable={false}/>
+		<Image source={home} style={styles.icon} draggable={false}/>
 	</View>
 )
 const Unmasked = () => ( 
